@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Man - Order Confirm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;600;700;800&family=Baloo+Da+2:wght@400;600;700&family=Inter:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="confirm">
+        <div class="confirm__header">
+            <h2 class="confirm__title">মিল্ক বিস্কুট (50g)</h2>
+            <h2 class="confirm__amount">Tk 500</h2>
+        </div>
+        <div class="confirm__container">
+            <div class="confirm__select">
+                <div class="confirm__select-left">
+                    <input type="radio" id="half" name="buskuit" value="half">
+                    <label for="half">হাফ নিবো</label><br>
+                </div>
+                <div class="confirm__select-right">
+                    <input type="radio" id="piece" name="buskuit" value="piece">
+                    <label for="piece">পিস নিবো</label><br>
+                </div>
+            </div>
+            <h3 class="confirm__qty">পরিমাণ</h3>
+            <input class="confirm__qty-input" type="text" placeholder="10">
+            <button class="confirm__btn">Confirm</button>
+            <button class="cancel__btn">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

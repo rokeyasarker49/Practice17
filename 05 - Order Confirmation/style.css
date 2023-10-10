@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfd;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.confirm{
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 25, 73, 0.10);
+    margin-right: 28px;
+    margin-left: 28px;
+}
+.confirm__header{
+    padding: 20px;
+    border-bottom: 1px solid #E5E7F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.confirm__title{
+    color:  #222950;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.confirm__amount{
+    color: #0CAF60;
+    font-family: "Baloo Da 2";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 129.412% */
+}
+.confirm__container{
+    padding: 20px;
+}
+.confirm__select{
+    display: flex;
+    align-items: center;
+}
+.confirm__select-left{
+    margin-right: 30px;
+}
+/* .confirm__select-right{} */
+input[type="radio"]{
+    color: rgba(0, 122, 255, 1);
+}
+label{
+    color: #8A94A6;
+    margin-left: 10px;
+    font-family: "Baloo Da 2";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.confirm__qty{
+    margin-top: 36px;
+    color: #222950;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    margin-bottom: 9px;
+}
+.confirm__qty-input{
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid #E5E7F0;
+    background: #FFF;
+    color: #8A94A6;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    margin-bottom: 38px;
+    width: 100%;
+}
+.confirm__btn{
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background: var(--g, linear-gradient(180deg, #258AFF 0%, #0063FF 100%));
+    color: #FFF;
+    font-family: "Baloo Da 2";
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+}
+.cancel__btn{
+    width: 100%;
+    padding: 12px 16px; 
+    border-radius: 10px;
+    border: 1px solid #E5E7F0;
+    color: #263238;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+    background-color: transparent;
+    margin-top: 15px;
+}
